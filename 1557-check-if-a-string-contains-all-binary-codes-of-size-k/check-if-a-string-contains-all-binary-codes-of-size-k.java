@@ -4,7 +4,6 @@ class Solution {
         for(int i=0;i<s.length()-k+1;i++){
             set.add(s.substring(i,i+k));
         }
-        System.out.println(set);
         if(set.size() == Math.pow(2,k)){
             return true;
         }
